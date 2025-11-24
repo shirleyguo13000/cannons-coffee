@@ -113,6 +113,7 @@ main img{
 .lattecolumn2{
     display: grid;
     grid-column: 2/3;
+    padding: 1rem;
 }
 
 .lattebutton{
@@ -150,5 +151,9 @@ footer{
     header{
         justify-content: space-between;
         align-items: flex-end;
+    }
+     .lattecolumn1{
+        padding:0;
+        margin:0;
     }
 }
